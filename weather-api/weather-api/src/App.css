@@ -7,6 +7,12 @@
   font-family: "Raleway", sans-serif;
 }
 
+html {
+  padding: 0%;
+  margin: 0%;
+  background-color: rgb(93, 156, 240);
+}
+
 .Navbar {
   background-color: rgb(83, 140, 214);
   padding: 1rem;
@@ -40,4 +46,52 @@
   border: none;
   text-transform: uppercase;
   margin-left: 0.5rem;
+}
+/* The Body CSS */
+
+.The-image {
+  width: 400px;
+}
+.The-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(93, 156, 240);
+}
+.Mini-stats {
+  display: flex;
+  padding: 1rem;
+}
+.Mini-stats div {
+  margin: 0.5rem;
+}
+.Image-stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.last-part {
+  display: flex;
+  background-color: rgb(93, 156, 240);
+  padding-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.last-part div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.last-part img {
+  width: 200px;
+}
+
+div .last-part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
