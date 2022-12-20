@@ -12,6 +12,8 @@ function Middle() {
           <div>Humidity 78%</div>
           <div>Pressure 1008.48</div>
         </div>
+
+        
       </div>
     </div>
   );
