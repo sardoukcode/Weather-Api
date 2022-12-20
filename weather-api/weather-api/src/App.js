@@ -44,7 +44,7 @@ function App() {
       </div> */}
       {/* the last part */}
       <Down />
-      {/* <div class="last-part">
+      {/* <div class="last-part"> 
       
         <div class="first">
           <p>03:00</p>
