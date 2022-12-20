@@ -94,3 +94,7 @@ div .last-part {
   justify-content: center;
   align-items: center;
 }
+.first {
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
