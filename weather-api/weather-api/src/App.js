@@ -13,9 +13,14 @@ import Search from "./component/Search";
 import Middle from "./component/Middle";
 import Down from "./component/Down";
 import Data from "./Data/FakeWeather.json";
+import axios from "axios";
+import { useState, useEffect } from "react";
 
 function App() {
   let FakeWeatherData = Data;
+
+  const [realData, setRealData] = useState("");
+  
 
   return (
     <div className="App">

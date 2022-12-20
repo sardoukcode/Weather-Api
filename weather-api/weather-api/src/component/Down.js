@@ -7,10 +7,10 @@ function Down({ FakeWeatherData }) {
       <div className="last-part">
         {FakeWeatherData.list.map((weather) => {
           return (
-            <div className="first">
+            <div key={weather.dt} className="first">
               <p>{weather.dt_txt.slice(11, 16)}</p>
               <img src={MostlyCloudyImage} />
-              <p>{Math.round((weather.main.temp - 32) /1.8)} C</p>
+              <p>{Math.round((weather.main.temp - 32) / 1.8)} C</p>
             </div>
           );
         })}
